@@ -15,7 +15,7 @@ entity fault_operation_stage is
 	port(
 		state	: int std_logic_vector(1 downto 0);    -- Vetor de estado das entradas
 --		clk	: in  std_logic;
-		 Y 	  : out std_logic;                       -- Saída
+		 Y 	  : out std_logic                      -- Saída
 		
 		
 	);
